@@ -91,7 +91,6 @@ class ResqueScheduler_Worker
 	 */
 	protected function sleep()
 	{
-		return true;
 		sleep($this->interval);
 	}
 	
